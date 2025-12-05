@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>angler-im-common</artifactId>
-        <groupId>io.angler.im</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <groupId>io.github.anglerchen</groupId>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>angler-im-common-domain</artifactId>
-
+    <name>angler-im-common-domain</name>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
