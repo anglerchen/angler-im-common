@@ -7,7 +7,7 @@
     <groupId>io.github.anglerchen</groupId>
     <artifactId>angler-im-common</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.3</version>
     <modules>
         <module>angler-im-common-domain</module>
         <module>angler-im-common-cache</module>
@@ -37,12 +37,12 @@
     </scm>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.compilerVersion>3.14.0</maven.compiler.compilerVersion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <mybatisplus-spring-boot-starter.version>3.3.2</mybatisplus-spring-boot-starter.version>
         <fastjson.version>1.2.40</fastjson.version>
         <velocity.version>1.7</velocity.version>
@@ -64,7 +64,7 @@
                 <!-- Import dependency management from Spring Boot -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.7.17</version>
+                <version>3.5.7</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -241,7 +241,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <publishingServerId>central</publishingServerId>
-                    <autoPublish>true</autoPublish>
+<!--                    <autoPublish>true</autoPublish>-->
                     <deploymentName>${project.groupId}:${project.artifactId}:${project.version}</deploymentName>
                 </configuration>
             </plugin>
